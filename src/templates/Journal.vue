@@ -7,7 +7,7 @@
 					<div class="journal-meta">
 						<div class="journal-author">
 							<span class="label">Author</span>
-							<span class="author-name">{{journal.author.username}}</span>
+							<span class="author-name" v-if="journal.author">{{journal.author.username}}</span>
 						</div>
 						<div class="journal-date">
 							<span class="label">Date</span>
