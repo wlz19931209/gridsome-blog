@@ -34,7 +34,7 @@ module.exports = {
                 name: "journal",
                 path: "/journal/:id",
                 component: "./src/templates/Journal.vue",
-            }
+            },
         ],
     },
 };
